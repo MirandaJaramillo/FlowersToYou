@@ -1,0 +1,48 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+canvas {
+    display: block;
+  }
+
+  .name-input {
+    font-size: 16px;
+    padding: 8px;
+    border: 2px solid #FFD731;
+    border-radius: 5px;
+    background-color: #FFF8F0;
+    width: 200px; 
+}
+
+.submit-button {
+    padding: 10px 0px;
+    background-color: #FFD731;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color:#934D48;
+    width: 100px;
+    font-family: "Freeman", sans-serif;
+}
+
+.submit-button:hover {
+    background-color: #f5eabf;
+    
+}
+
+.caption-text {
+    color: #E9FAE3;
+    font-size: 20px;
+    font-family: "Freeman", sans-serif;
+}
+
+
+.caption-text, .name-input, .submit-button {
+    text-align: center;
+    display: block; 
+}
